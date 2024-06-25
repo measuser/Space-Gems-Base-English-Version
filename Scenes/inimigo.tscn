@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=3 uid="uid://ckq6h48x4eai5"]
+
+[ext_resource type="Texture2D" uid="uid://d1uiv0vp41lnr" path="res://Assets/imagens/sprites/inimigo_andando_spritesheet.png" id="1_w71ot"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cjwl4"]
+size = Vector2(59, 34)
+
+[sub_resource type="Animation" id="Animation_11kpm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ImagemInimigo:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_j5by2"]
+resource_name = "morrendo"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ImagemInimigo:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -3.14159]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_as4yx"]
+_data = {
+"RESET": SubResource("Animation_11kpm"),
+"morrendo": SubResource("Animation_j5by2")
+}
+
+[node name="Inimigo" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 8
+
+[node name="ImagemInimigo" type="Sprite2D" parent="."]
+position = Vector2(0, -17)
+texture = ExtResource("1_w71ot")
+region_enabled = true
+region_rect = Rect2(-0.0371962, 0.107491, 66.034, 33.7973)
+
+[node name="ColisorDoInimigo" type="CollisionShape2D" parent="."]
+position = Vector2(-1.5, -17)
+shape = SubResource("RectangleShape2D_cjwl4")
+
+[node name="AnimacaoInimigo" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_as4yx")
+}

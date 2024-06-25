@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cj4wbwsfkqdvu"]
+
+[ext_resource type="Texture2D" uid="uid://uml8cx6xhfoc" path="res://Assets/imagens/sprites/joia_verde.png" id="1_ewmpm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dc1ck"]
+radius = 13.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1pa3e"]
+size = Vector2(28, 28)
+
+[node name="Joia" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 8
+
+[node name="ImagemDaJoia" type="Sprite2D" parent="."]
+texture = ExtResource("1_ewmpm")
+
+[node name="ColisorDaJoia" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_dc1ck")
+
+[node name="DetectorDeColeta" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 3
+
+[node name="ColisorDoDetectorDeColeta" type="CollisionShape2D" parent="DetectorDeColeta"]
+shape = SubResource("RectangleShape2D_1pa3e")
