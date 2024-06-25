@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1uiv0vp41lnr"
-path="res://.godot/imported/inimigo_andando_spritesheet.png-8fe37698c83fe55ee7255154cd61e934.ctex"
+uid="uid://vvvuwwtsxhi1"
+path="res://.godot/imported/imagem_das_pedras.png-aa83e1e02d133e75010a94b8f632c753.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/sprites/inimigo_andando_spritesheet.png"
-dest_files=["res://.godot/imported/inimigo_andando_spritesheet.png-8fe37698c83fe55ee7255154cd61e934.ctex"]
+source_file="res://Assets/images/texturas/imagem_das_pedras.png"
+dest_files=["res://.godot/imported/imagem_das_pedras.png-aa83e1e02d133e75010a94b8f632c753.ctex"]
 
 [params]
 

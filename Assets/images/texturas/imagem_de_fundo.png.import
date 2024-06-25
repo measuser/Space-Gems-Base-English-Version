@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x8asj4bn7g2b"
-path="res://.godot/imported/jogador_parado.png-6840352dabaa87433ae8b73b581bace9.ctex"
+uid="uid://c48gjfo21hi36"
+path="res://.godot/imported/imagem_de_fundo.png-188336594926481be1b304be63bd4dbb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/sprites/jogador_parado.png"
-dest_files=["res://.godot/imported/jogador_parado.png-6840352dabaa87433ae8b73b581bace9.ctex"]
+source_file="res://Assets/images/texturas/imagem_de_fundo.png"
+dest_files=["res://.godot/imported/imagem_de_fundo.png-188336594926481be1b304be63bd4dbb.ctex"]
 
 [params]
 

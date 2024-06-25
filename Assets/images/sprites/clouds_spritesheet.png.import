@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhax4vhxk2g1j"
-path="res://.godot/imported/space-gems-logo.png-3f405454fd071b2dc1278b9fd974b6ef.ctex"
+uid="uid://bttmqujc6im4e"
+path="res://.godot/imported/clouds_spritesheet.png-67e1b275784e607898ab190ab8da35cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/texturas/space-gems-logo.png"
-dest_files=["res://.godot/imported/space-gems-logo.png-3f405454fd071b2dc1278b9fd974b6ef.ctex"]
+source_file="res://Assets/images/sprites/clouds_spritesheet.png"
+dest_files=["res://.godot/imported/clouds_spritesheet.png-67e1b275784e607898ab190ab8da35cd.ctex"]
 
 [params]
 

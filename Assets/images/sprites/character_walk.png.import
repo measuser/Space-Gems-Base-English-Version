@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1vvuigynpxvc"
-path="res://.godot/imported/nuvens_spritesheet.png-ea149b718ed20c307838a5dd0744fe4a.ctex"
+uid="uid://h2w3co6lmbk1"
+path="res://.godot/imported/character_walk.png-c5677d1644bbb1b55ec2db1130542730.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/sprites/nuvens_spritesheet.png"
-dest_files=["res://.godot/imported/nuvens_spritesheet.png-ea149b718ed20c307838a5dd0744fe4a.ctex"]
+source_file="res://Assets/images/sprites/character_walk.png"
+dest_files=["res://.godot/imported/character_walk.png-c5677d1644bbb1b55ec2db1130542730.ctex"]
 
 [params]
 

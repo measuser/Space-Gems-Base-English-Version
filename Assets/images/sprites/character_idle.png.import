@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vlkidsmbhfy6"
-path="res://.godot/imported/lua.png-62f2ad72d1ed52224144ca2eaedea1f0.ctex"
+uid="uid://c58ol08necuet"
+path="res://.godot/imported/character_idle.png-785c8adb453d37a1fb674133ebe0dfee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/sprites/lua.png"
-dest_files=["res://.godot/imported/lua.png-62f2ad72d1ed52224144ca2eaedea1f0.ctex"]
+source_file="res://Assets/images/sprites/character_idle.png"
+dest_files=["res://.godot/imported/character_idle.png-785c8adb453d37a1fb674133ebe0dfee.ctex"]
 
 [params]
 

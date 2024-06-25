@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkhc13jet6eyg"
-path="res://.godot/imported/joia_verde.png-bc3de2cf9e60829a89e64936a38adf5e.ctex"
+uid="uid://dhax4vhxk2g1j"
+path="res://.godot/imported/space-gems-logo.png-bc21a7b090fc03f09f6ad1608b5b3457.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/sprites/joia_verde.png"
-dest_files=["res://.godot/imported/joia_verde.png-bc3de2cf9e60829a89e64936a38adf5e.ctex"]
+source_file="res://Assets/images/texturas/space-gems-logo.png"
+dest_files=["res://.godot/imported/space-gems-logo.png-bc21a7b090fc03f09f6ad1608b5b3457.ctex"]
 
 [params]
 

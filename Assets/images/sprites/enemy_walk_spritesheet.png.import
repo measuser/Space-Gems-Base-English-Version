@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgw3f0ekcam6t"
-path="res://.godot/imported/jogador_andando.png-053c43eaa6fafe63ca20537f55ec0350.ctex"
+uid="uid://bsj1okjrkd5o1"
+path="res://.godot/imported/enemy_walk_spritesheet.png-2c17d7f37797be699d5ec131d4821b60.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/imagens/sprites/jogador_andando.png"
-dest_files=["res://.godot/imported/jogador_andando.png-053c43eaa6fafe63ca20537f55ec0350.ctex"]
+source_file="res://Assets/images/sprites/enemy_walk_spritesheet.png"
+dest_files=["res://.godot/imported/enemy_walk_spritesheet.png-2c17d7f37797be699d5ec131d4821b60.ctex"]
 
 [params]
 
