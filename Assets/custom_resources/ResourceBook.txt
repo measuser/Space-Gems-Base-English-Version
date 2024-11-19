@@ -1,0 +1,23 @@
+Resource Book
+
+Keep tracking of Custom Resources Consumers
+
+# Stores score value.
+# Consumers:
+#    - Astro (W): kill enemy or collect gem
+#    - ScoreLabel (R): score changed
+#    - GameMain (R)
+@export var score: IntVariable
+
+# Stores highscore value.
+# Consumers:
+#    - Astro (W): score > highscore
+#    - HighScoreLabel (R): highscore changed
+#    - GameMain (R)
+@export var highscore: IntVariable
+
+# Stores lives value.
+# Consumers:
+#    - Astro (W)
+#    - GameMain (R)
+@export var highscore: IntVariable
